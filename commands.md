@@ -35,3 +35,17 @@ npm add @babel/preset-react -D
 ```
 
 Usado para conseguir entender o código (ocm HTML) usado em React.
+
+## Configurando Webpack
+
+O webpack basicamente define uma série de configurações chamadas "loaders" que vão ensinar para nossa aplicação a como tratar cada tipo de arquivo importado para o projeto em React para convertê-los em arquivos "entendíveis" para o browser.
+
+```bash
+npm add webpack webpack-cli -D
+```
+
+```bash
+npm add babel-loader -D
+```
+
+Biblioteca de integração entre o babel e o webpack
