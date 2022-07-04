@@ -49,3 +49,9 @@ npm add babel-loader -D
 ```
 
 Biblioteca de integração entre o babel e o webpack
+
+## Servindo HTML estático
+
+```bash
+npm add html-webpack-plugin -D
+```
