@@ -55,3 +55,15 @@ Biblioteca de integração entre o babel e o webpack
 ```bash
 npm add html-webpack-plugin -D
 ```
+
+## Webpack Dev Server
+
+```bash
+npm add webpack-dev-server -D
+```
+
+Usado para não precisar ficar dando o comando "npx webpack" a cada alteração. A biblioteca observa as alterações feitas nos arquivos e automatiza o processo.
+
+## Utilizando source maps
+
+Utilizado para visualizar erros no código "humano" e não no bundle.js
